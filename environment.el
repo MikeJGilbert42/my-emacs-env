@@ -2,7 +2,6 @@
 (setq-default truncate-lines t)
 (setq-default show-trailing-whitespace t)
 (setq-default indent-tabs-mode nil)
-(setq-default tool-bar-mode nil)
 (setq x-select-enable-clipboard t)
 (setq-default truncate-lines t)
 (setq coffee-tab-width 4)
