@@ -16,3 +16,7 @@
 [submodule "rhtml-mode"]
 	path = rhtml-mode
 	url = git://github.com/eschulte/rhtml.git
+
+[submodule "molokai-theme"]
+	path = molokai-theme
+	url = git://github.com/alloy-d/color-theme-molokai.git
