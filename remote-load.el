@@ -17,5 +17,5 @@
 (remote-load "https://raw.github.com/szermatt/emacs-bash-completion/master/bash-completion.el")
 (remote-load "https://raw.github.com/nex3/haml-mode/master/haml-mode.el")
 (remote-load "https://raw.github.com/nex3/sass-mode/master/sass-mode.el")
-(remote-load "https://raw.github.com/mikestone/my-emacs-env/master/keyboard-mappings.el")
-(remote-load "https://raw.github.com/mikestone/my-emacs-env/master/environment.el")
+(remote-load "https://raw.github.com/MikeJGilbert42/my-emacs-env/master/keyboard-mappings.el")
+(remote-load "https://raw.github.com/MikeJGilbert42/my-emacs-env/master/environment.el")
