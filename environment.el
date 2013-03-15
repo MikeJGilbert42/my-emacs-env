@@ -20,9 +20,6 @@
             (setq tab-width 8)
             (shell-up-down-minor-mode)
             (ansi-color-for-comint-mode-on)))
-(add-hook 'shell-dynamic-complete-functions
-          'bash-completion-dynamic-complete)
-(add-hook 'shell-command-complete-functions
-          'bash-completion-dynamic-complete)
+(ffap-bindings)
 (if (boundp 'g-before-set-keyboard-mapping) (funcall g-before-set-keyboard-mapping))
 (set-default-keyboard-mapping "g")
