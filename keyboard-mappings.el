@@ -1,3 +1,5 @@
+(defvar this-dir (file-name-directory load-file-name))
+
 (define-keyboard-mappings "g"
   '(("Windows"
      ("M-<left>" windmove-left)
@@ -9,4 +11,4 @@
     ("Editing"
      ("C-z" undo))
     ("Visit Environment Dir"
-     ("<f5>" dired "/home/mjgilbert/workspace/my-emacs-env/"))))
+     ("<f5>" (lambda () (interactive) (dired this-dir))))))
