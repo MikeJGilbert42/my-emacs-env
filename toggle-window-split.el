@@ -1,3 +1,5 @@
+;; Source: http://emacswiki.org/emacs/ToggleWindowSplit
+
 (defun toggle-window-split ()
   (interactive)
   (if (= (count-windows) 2)
