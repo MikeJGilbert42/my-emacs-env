@@ -15,4 +15,5 @@
     ("Editing"
      ("C-z"       undo))
     ("Environment"
-     ("<f5>"      (lambda () (interactive) (dired this-dir))))))
+     ("<f5>"      revert-buffer)
+     ("<f6>"      (lambda () (interactive) (dired this-dir))))))

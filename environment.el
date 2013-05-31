@@ -14,12 +14,16 @@
 (setq browse-url-browser-function 'browse-url-generic
       browse-url-generic-program "google-chrome")
 (column-number-mode)
+(delete-selection-mode)
 (global-linum-mode t)
 (add-hook 'shell-mode-hook
           (lambda ()
             (setq tab-width 8)
             (shell-up-down-minor-mode)
             (ansi-color-for-comint-mode-on)))
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (ruby-electric-mode)))
 (ffap-bindings)
 (if (boundp 'g-before-set-keyboard-mapping) (funcall g-before-set-keyboard-mapping))
 (set-default-keyboard-mapping "g")
